@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/calculate/calculate",
+    "pages/about/about",
+    "pages/format/format",
+    "pages/weather/weather",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Big科技堂",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#D53E37",
+    "backgroundColor": "#F5F5F5",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/calculate/calculate",
+        "text": "计算器",
+        "iconPath": "images/bar/movie-0.jpg",
+        "selectedIconPath": "images/bar/movie-1.jpg"
+      },
+      {
+        "pagePath": "pages/weather/weather",
+        "text": "天气",
+      "iconPath": "images/bar/find-0.jpg",
+      "selectedIconPath": "images/bar/find-1.jpg"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于",
+        "iconPath": "images/bar/me-0.jpg",
+        "selectedIconPath": "images/bar/me-1.jpg"
+      }
+    ]
+  },
+  "debug": true
+}
